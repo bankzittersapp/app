@@ -1,0 +1,47 @@
+        /* Styling for the popup */
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            height: 70%;
+            width: 90%;
+        }
+        
+        /* Styling for the button */
+        .generate-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .generate-button:hover {
+            background-color: #45a049;
+        }
+        
+        .generate-button:focus {
+            outline: none;
+        }
+        
+        .generate-button:active {
+            background-color: #3e8e41;
+        }
+        
+        .generate-button:disabled {
+            background-color: gray;
+            cursor: not-allowed;
+        }
+        
+        /* Align button to center */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }

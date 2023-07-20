@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@1,700&display=swap');
+    /* Add some basic styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Lilita One', cursive;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Style the navigation bar */
+    .navbar {
+      background-color: #f50000;
+      color: #fff;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center; /* Center the content horizontally */
+    }
+
+    /* Style the navigation links */
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 2%; /* Add margin to create spacing between the buttons */
+    }
+    .h1header {
+        margin-top: -60px;
+        font-size: 35px;
+    }
+    .playheader {
+        margin-top: -33px;
+        width: 99.8%;
+        height: 100px;
+        background-color: yellow;
+        border: 2.5px solid rgb(122, 120, 2);
+        font-size: 70px;
+        text-align: center;
+    }
+    .h1play {
+        position: fixed;
+        margin-top: -10px;
+        font-size: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .h1playimg {
+        position: fixed;
+        left: 35%;
+        transform: translateX(-50%);
+    }
+    .h1newvid {
+        text-align: center;
+    }
+    @keyframes shake {
+        0%, 100% { transform: translate(-20px, -20px); }
+        10%, 30%, 50%, 70%, 90% { transform: translate(20px, 20px); }
+        20%, 40%, 60%, 80% { transform: translate(-20px, -20px); }
+    }
+
+    .my-button {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background-color: #ff6f00;
+        color: #ffffff;
+        border: none;
+        border-radius: 30px;
+        transition: background-color 0.3s ease;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
+
+    .my-button:hover {
+        background-color: #ff812d;
+    }
+
+    .my-button.shake {
+        animation: shake 0.5s;
+    }
+    footer {
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+    .popup1 {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        background-color: rgb(43, 0, 99);
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        display: none;
+    }
+  </style>
+</head>
+<body onload="executeOnloadTwice()">
+  <script>
+    function hideNavbar() {
+        var navbar = document.querySelector('.navbar');
+        navbar.style.display = 'none';
+    }
+
+    function showNavbar() {
+        var navbar = document.querySelector('.navbar');
+        navbar.style.display = 'block';
+    }
+
+    function executeOnloadTwice() {
+        open1();
+    }
+    
+    function open1() {
+        if (window.navigator.standalone) {
+            showNavbar();
+        } else {
+            /* var popup1 = document.getElementById('notinstaled');
+            popup1.style.display = 'block';  }
+            hideNavbar()*/
+        }
+    }
+  </script>
+  <div class="popup1" id="notinstalled">
+    <h1>Je hebt de onofficiële bankzitters nog niet geïnstalleerd</h1>
+    <h1>1. Open de pagina in Safari op je apparaat <a href="">heb je geen iPhone?</a></h1>
+    <h1>2. Klik op delen <img src="https://imgtr.ee/images/2023/07/16/babaf240655e580f7a2ff92e9e89bcf8.png" height="30px"></h1>
+    <h1>3. Klik <strong>zet op beginscherm</strong></h1>
+    <h1>4. Klik toevoegen</h1>
+  </div>
+    <img src="https://i3.ytimg.com/vi/MdGRoXtjLno/maxresdefault.jpg" alt=""style="height: 60%; width:100%;">
+    <h1 class="h1header">BANKZITTERS RANDOM EETWEDSTRIJD IN FOODHALLEN</h1>
+    <div class="playheader">afspelen</div>
+    <h1 class="h1newvid">Playlist</h1>
+    <a href="zonder/roP.html"></a>
+      <img src="https://imgtr.ee/images/2023/07/14/26d6921f6f016a22e04792a20b8f3554.png" alt="" height="350px" width="240px">
+    <img src="https://imgtr.ee/images/2023/07/14/585214fd5c069ad9213c3f07e17b2bcb.png" alt="" height="350px" width="240px" >
+    <a href="zonder-roP.html"><img src="https://imgtr.ee/images/2023/07/14/ffa99370008f732ab4ed2bb13e3fb45b.png" alt="" height="350px" width="240px" ></a>
+    <img src="https://imgtr.ee/images/2023/07/14/26d6921f6f016a22e04792a20b8f3554.png" alt="" height="350px" width="240px" >
+    <p style="text-align: center; margin-top: -10px;">meer playlist</p>
+    <p style="text-align: center; margin-top: -20px;">↓</p>
+    <h1 style="text-align: center; margin-top: -10px;">Muziek</h1>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1g9nyCbUH0kbNgXAsw7tUB?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></iframe>
+    <h1>de nieuwste video's</h1>
+    <img src="https://i3.ytimg.com/vi/2sVcPmwqz1c/maxresdefault.jpg" alt="" height="20%" width="33%">
+    <img src="https://i3.ytimg.com/vi/RBUJBUmngGc/maxresdefault.jpg" alt="" height="20%" width="33%">
+    <img src="https://i3.ytimg.com/vi/J6VsNKSffnE/maxresdefault.jpg" alt="" height="20%" width="33%">
+    <h1>Geen idee wat je wil zien</h1>
+    <p>Kijk een random video</p>
+    <a href="popuptest.html"><button>kijk een random video</button></a>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023/2023 deze site is niet van de bankzitters</p>
+      <nav>
+        <ul>
+          <li><a href="https://bankzitters.nl/">Officiële Bankzitters-website</a></li>
+          <li><a href="https://bankzitters.nl/afas">Officiële Bankzitters-tickets AFAS</a></li>
+          <li><a href="https://linktw.in/bquGyP">Bankzitters YouTube</a></li>
+          <li><a href="#">Ik wil graag geld</a></li>
+          <h1>⠀</h1>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <div class="navbar">
+    <a href="#"><img src="https://imgtr.ee/images/2023/07/14/4a293e7b558c6540b8e1dade867741cd.png" alt="muziek" height="60px" width="60px"></a>
+    <a href="#"><img src="https://imgtr.ee/images/2023/07/14/47058d26713fefdfcc6e65f95254f266.png" alt="playlist" height="60px" width="60px"></a>
+    <a href="#"><img src="https://imgtr.ee/images/2023/07/14/446f79edda1b131c00ce9654b45770db.png" alt="" height="60px" width="60px"></a>
+    <a href="#"><img src="https://imgtr.ee/images/2023/07/14/39a1e14a292595a59f56aca76d3f801c.png" alt="main" height="60px" width="60px"></a>
+  </div>
+</body>
+</html>

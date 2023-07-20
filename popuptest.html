@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Number Comparison</title>
+    <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@1,700&display=swap');
+    /* Add some basic styling */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Lilita One', cursive;
+      font-family: 'Poppins', sans-serif;
+    }
+
+        /* Styling for the popup */
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 1px solid black;
+            padding: 20px;
+            height: 70%;
+            width: 90%;
+        }
+        
+        /* Styling for the button */
+        .generate-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .generate-button:hover {
+            background-color: #45a049;
+        }
+        
+        .generate-button:focus {
+            outline: none;
+        }
+        
+        .generate-button:active {
+            background-color: #3e8e41;
+        }
+        
+        .generate-button:disabled {
+            background-color: gray;
+            cursor: not-allowed;
+        }
+        
+        /* Align button to center */
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+<script src="randomvid.js"></script>
+<style ></style>
+</head>
+    <div class="button-container">
+        <button class="generate-button" onclick="generateRandomNumber()">kIJK EEN RANDOM VIDEO</button>
+    </div>
+    <div id="popup" class="popup" style="display: none;">
+        <p>video: <span id="popup-number"></span></p>
+        <p>titel: <span id="popup-name"></span></p>
+        <iframe id="popup-video" width="98%" height="80%" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style=""></iframe>
+        <button onclick="closePopup()" style="position: fixed; left: 94%; top: -0px; background-color: red; color: white; padding: 8px 16px; border: 2px solid black; border-radius: 4px; cursor: pointer;">x</button>
+    </body>
+</html>
