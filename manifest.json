@@ -1,28 +1,28 @@
 {
-  "name": "My App",
-  "short_name": "App",
+  "name": "bankzitters app",
+  "short_name": "bankzitters",
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "icons": [
     {
-      "src": "/icons/icon-72x72.png",
+      "src": "https://bankzitters.nl/__images/qcommerce/eyJ3aWRlbiI6MzAwLCJlbmNvZGUiOiJ3ZWJwIn0=/qcommerce/branding/logo/dbJnNadXwFwTyDYaRYlcsSNQhIC65E-metaQmFua3ppdHRlcnMgMi5wbmc=-.png?signature=080b5a400ef5d031cf57f2b5702815a4af49c05153c12c1a24114be2187be438",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-96x96.png",
+      "src": "https://bankzitters.nl/__images/qcommerce/eyJ3aWRlbiI6MzAwLCJlbmNvZGUiOiJ3ZWJwIn0=/qcommerce/branding/logo/dbJnNadXwFwTyDYaRYlcsSNQhIC65E-metaQmFua3ppdHRlcnMgMi5wbmc=-.png?signature=080b5a400ef5d031cf57f2b5702815a4af49c05153c12c1a24114be2187be438",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-192x192.png",
+      "src": "https://bankzitters.nl/__images/qcommerce/eyJ3aWRlbiI6MzAwLCJlbmNvZGUiOiJ3ZWJwIn0=/qcommerce/branding/logo/dbJnNadXwFwTyDYaRYlcsSNQhIC65E-metaQmFua3ppdHRlcnMgMi5wbmc=-.png?signature=080b5a400ef5d031cf57f2b5702815a4af49c05153c12c1a24114be2187be438",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icons/icon-512x512.png",
+      "src": "https://bankzitters.nl/__images/qcommerce/eyJ3aWRlbiI6MzAwLCJlbmNvZGUiOiJ3ZWJwIn0=/qcommerce/branding/logo/dbJnNadXwFwTyDYaRYlcsSNQhIC65E-metaQmFua3ppdHRlcnMgMi5wbmc=-.png?signature=080b5a400ef5d031cf57f2b5702815a4af49c05153c12c1a24114be2187be438",
       "sizes": "512x512",
       "type": "image/png"
     }
