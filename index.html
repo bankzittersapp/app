@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@600;800&display=swap');
+
         body {
         margin: 0;
         font-family: 'Lilita One', cursive, 'Poppins', sans-serif;
@@ -14,13 +16,30 @@
         display: flex;
         flex-direction: column;
         }
+        #nvdimg-container {
+            position: relative;
+            width: 100%;
+        }
+
         #nvdimg {
             width: 100%;
             height: auto;
             border-radius: 12px;
         }
+
+        #nvidh1 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: 10px;
+            color: white;
+            padding: 105px 20px;
+        }
 </style>
 <body>
-    <img id="nvdimg" src="https://i3.ytimg.com/vi/_8uy-hu1eZM/maxresdefault.jpg" alt="">
+    <div id="nvdimg-container">
+        <img id="nvdimg" src="https://i3.ytimg.com/vi/_8uy-hu1eZM/maxresdefault.jpg" alt="">
+        <h1 id="nvidh1">hi</h1>
+    </div>
 </body>
 </html>
